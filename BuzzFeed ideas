@@ -1,0 +1,18 @@
+BuzzFeed
+ 
+-feed of images 
+-inspiration today last 24 hrs
+-click on something that catches your eye
+-links to buzzfeed
+-cycle through 
+	-everything? today?
+
+
+-method that goes through the feed 
+	-grabs image URL
+	-content.images
+
+
+for loop iterate through
+length of data 
+increment indexOfFeed

@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BuzzPics</title>
+<link type="text/css" rel="stylesheet" href="/static/styles.css"/>
+</head>
+
+<body>
+	<nav class="fixed-nav-bar">
+    
+    	<h1>
+    		BuzzPics
+  		</h1>
+    
+  	</nav>  
+
+	{% for image in images %}
+		<ul class= "grid">
+			<li><a href="{{ image['url'] }}" target="_blank"><img src="{{ image['image'] }}"><div><h3>{{ image['category'] }}</h3></div></a></li>
+	  	</ul>
+	{% endfor %}
+</body>
+</html>
