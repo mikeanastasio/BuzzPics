@@ -13,8 +13,8 @@
 	font-family: "proxima-nova", sans-serif;
 	color: white;
 	text-align: center;
-	font-size: 30px;
-	line-height:50px;
+	font-size: 35px;
+	line-height:38px;
 }
 
 
@@ -66,12 +66,13 @@
 }
 
 .grid li a:hover div {
-	opacity: 1;
+	opacity: 2;
 }
 
 .grid li a div h3 {
 	width: 100%;
-	color: #fff;
+	font-family: "proxima-nova", sans-serif;
+	color: white;
 	text-transform: uppercase;
 	font-size: 1.4em;
 	letter-spacing: 2px;
