@@ -1,3 +1,4 @@
+
 body{
 
 	padding-top: 50px;
@@ -24,13 +25,13 @@ body{
 	line-height:38px;
 }
 
-
 .grid {
 	padding: 0;
 	list-style: none;
 	position: relative;
 	width: 100%;
 }
+
 .grid li {
 	position: relative;
 	float: left;

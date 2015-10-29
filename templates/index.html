@@ -5,6 +5,8 @@
 <title>BuzzPics</title>
 <script src="https://use.typekit.net/bwb3tom.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+<script type="text/javascript" src="/static/angular.js"></script>
 <link type="text/css" rel="stylesheet" href="/static/styles.css"/>
 </head>
 
@@ -12,13 +14,16 @@
 	<div class="fixed-nav-bar">
     
     	<h1>BuzzPics</h1>
+
     
   	</div>  
 
 	{% for image in images %}
 		<ul class= "grid">
-			<li><a href="{{ image['url'] }}" target="_blank"><img src="{{ image['image'] }}"><div><h3>{{ image['category'] }}</h3></div></a></li>
+			<li><a href="{{ image['url'] }}" target="_blank"><img src="{{ image['image'] }}"><div><h3>{{ image['title'] }}</h3></div></a></li>
 	  	</ul>
 	{% endfor %}
 </body>
 </html>
+
+
